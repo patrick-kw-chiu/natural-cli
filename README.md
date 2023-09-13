@@ -5,7 +5,9 @@ A simple demo of CLI toolkit to perform NLP **tokenization** and **sentiment ana
 ### Usage
 
 1. `cd` into the directory with files you want to perform NLP tasks
-2. `npx natural-cli`
+2. `npx natural-cli` (demo is using `node ../.` but we should use `npx natural-cli` instead)
+
+![all](https://github.com/patrick-kw-chiu/natural-cli/assets/42149082/43536004-5910-4238-aef3-9151ff68510d)
 
 ---
 
