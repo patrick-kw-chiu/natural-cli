@@ -1,27 +1,25 @@
 {
-  "name": "natural-cli",
-  "version": "0.0.7",
-  "description": "CLI tool to perform NLP on selected files",
-  "main": "index.js",
-  "type": "module",
-  "bin": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "natural",
-    "nlp",
-    "tokenization",
-    "sentiment analysis",
-    "cli"
-  ],
-  "author": "Patrick Chiu",
-  "license": "MIT",
-  "dependencies": {
-    "@inquirer/core": "4.0.0",
-    "@inquirer/input": "1.2.9",
-    "@inquirer/prompts": "3.0.4",
-    "chalk": "^5.3.0",
-    "natural": "^6.7.1"
-  }
+	"name": "natural-cli",
+	"version": "0.0.8",
+	"description": "CLI tool to perform NLP on selected files",
+	"main": "index.js",
+	"type": "module",
+	"bin": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"natural",
+		"nlp",
+		"tokenization",
+		"sentiment analysis",
+		"cli"
+	],
+	"author": "Patrick Chiu",
+	"license": "MIT",
+	"dependencies": {
+		"@inquirer/prompts": "3.1.1",
+		"chalk": "^5.3.0",
+		"natural": "^6.7.1"
+	}
 }
